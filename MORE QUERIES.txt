@@ -1,0 +1,12 @@
+UPDATE tbl_name
+SET AUTHOR= 'Robert Stevenson'
+WHERE ISBN='1860920012';
+
+DELETE FROM tbl_name
+WHERE ISBN='1860920225' ;
+
+SELECT * FROM tbl_name
+ORDER BY SHELF_NUBER; 
+
+SELECT * FROM tbl_name
+WHERE CATERGORY= 'Suspense'; /*return info to client*/

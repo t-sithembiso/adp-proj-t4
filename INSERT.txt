@@ -1,0 +1,17 @@
+/*Inserting new books into the table*/
+
+INSERT INTO LIBRARIAN.BOOKSTBL (ISBN, BOOK_TITLE, CATERGORY, AUTHOR, SHELF_NUMBER) 
+VALUES ('186092097','The grass is always greener','Modern Times','Jefrey Archer','22'),
+('8609201128','Murder!', 'Crime','Arnold Bennett','28'),
+('186090025','The open boat','Stephen Crane','Classic','31'),
+('1860920225','A boy at seven','First edition','John Bidwell','29'),
+('1860920101','The Higler','A.E Coppard','Romance','30'),
+('1860920381','The signalman','Charles Dickens','Suspense','32'),
+('1860920144','The hostage','C.S. Foster','Adventure','35'),
+('1860920454','A mere interlude','Thomas Hardy','Romance','38'),
+('1860920330','The Diamond as Big as the Ritz','F.Scott Fitzgerald','Science fiction','34'),
+('1860920012','The body snatcher','Robert Louis Stevenson','Suspense','44'),
+('1860920020','Country of the blind','H.G Wells','Science Fiction','77'),
+('18692042','Goodbye to all cats','P.G Wodehouse','Comedy','79'),
+('186092008','The judges house','Bram Stocker','Suspense','65'),;
+/*WILL ADD A BOOLEAN ATRIBUTE AVAILABLE FOR LOAN, WHICH IS TRUE AT FIRST*/
